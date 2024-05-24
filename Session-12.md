@@ -20,3 +20,21 @@
 - they run in the background and usually do not need user input.
 - referred to as non-interactive or automatic processes
 - for example: Antivirus.
+
+
+#### &-
+- Starts the command immediately in the background.
+#### Ctrl+Z-
+- Stops the job temporarily so that it can be managed.
+- For instance, it can be moved to the background.
+#### Ctrl+D- 
+- Send the End Of File (EOF) character to the current job to indicate that it should stop waiting for further input.
+#### Ctrl+C- 
+- Can be used to cancel the current interactive job
+#### bg- 
+- Continues the job that has just been frozen using Ctrl+Z in the background.
+#### fg-
+- Brings the last job that was moved to background execution back to the foreground.
+#### jobs-
+- Shows which jobs are currently running from current shell. 
+- Displays job numbers that can be used as an argument to the command bg and fg.

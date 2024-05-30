@@ -1,4 +1,5 @@
-# Package Management-
+
++# Package Management-
 - Package Management is the method of installing and maintaining the package/software.
 - Package management in Linux refers to the process of installing, updating, configuring, and removing software packages
 - In Linux, software is available in the form of packages (packages are the collection of programs).
@@ -23,3 +24,21 @@
 
 * Red Hat Based OS- Ubantu, Linux, Kali-Linux
 * Debian Based OS- Fedora, CentOS, Rhel
+# rpm- 
+- RPM packages are typically files with a .rpm extension.
+- They are archives that contain the files to be installed, along with metadata such as package name, version, dependencies, and installation scripts.
+#### rpm option package-name
+- -i install package file
+- -v verbose
+- -h show hash bar
+- -U Upgrade package
+- -q query package
+- -e erase package
+# yum-
+* To use YUM, you typically use commands like:
+- Install a Package: yum install package_name
+- Update a Package: yum update package_name
+- Remove a Package: yum remove package_name
+- List Installed Packages: yum list installed
+
+

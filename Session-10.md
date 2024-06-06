@@ -14,7 +14,7 @@ details.
 * The next column shows the date and time the file was last modified.
 * Last Column = File_name or Directory_name. (For example, here are: prac, snap, test, example)
 # Types of file-
-## Ordinary File/ Regular File- 
+## Ordinary File/ Regular File- (start with _)
 - File which contain Data. 
 - Regular files are nothing but the everyday files used to store information such as text, or images.
 - These files can be found in directories, which are yet another type of files. 

@@ -34,14 +34,15 @@ details.
 ## Named Pipe file- (start with p)  
 - used to establish two-way communications between two unrelated programs.
 - Sends data from one process to another so that receiving process reads the data FIFO manner.
+- These files are present in /run folder.
 ## Socket file- (start with s)
 - Special file to enable communications between two processes.
-- Applications use sockets to exchange data. When an application wants to interact with another it has to connect with the socket of the other application.
+- These files are present in /run folder.
 ## Character file-  (start with c)
 - Reads and write data character by character.
 - These files are present in /dev folder.
 - A character device file is a hardware file that reads or writes data one character at a time in a file.
-## Block Device file- 
+## Block Device file- (start with b)
 - file that refers to device. 
 - a piece of hardware that provides data access in blocks
 # Three types of permissions-

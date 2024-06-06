@@ -19,3 +19,4 @@
 
 
 * chmod <permission_in_numbers> <file_name>
+- chmod 644 example.txt

@@ -1,7 +1,27 @@
+* The chown and chgrp commands used to change the ownership and group ownership of files and directories, respectively.
+
+## chown (Change Ownership):
+- The chown command changes the ownership of a file or directory.
+- You can specify both the user (owner) and the group to which the file or directory will belong.
+
+#### Syntax:
+chown [OPTIONS] user:group file/dir
+- chown newowner file.txt
+- chown newowner:newgroup directory
+
+## chgrp (Change Group):
+- The chgrp command changes the group ownership of a file or directory.
+- You can specify only the group to which the file or directory will belong.
+
+#### Syntax:
+chgrp [OPTIONS] group file/dir
+- chgrp newgroup file.txt
+
+
 # How to Change Permissions in Linux-
 - The command you use to change the security permissions on files is called “chmod“, which stands for “change mode".
 ### Syntax-
-* chmod <u,g,o><+,-,=><r,w,x> <file_name>
+* chmod <u,g,o,a><+,-,=><r,w,x> <file_name>
 # Octal Notation Method-
 ### Syntax- 
 * chmod <permission_in_numbers> <file_name>

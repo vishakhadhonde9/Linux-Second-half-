@@ -40,3 +40,24 @@ chgrp [OPTIONS] group file/dir
 
 * chmod <permission_in_numbers> <file_name>
 - chmod 644 example.txt
+
+  
+# Default Permissions (umask)-
+- The umask command is used to set the default permissions mask for new files and directories. 
+- It determines which permissions are removed or masked when a new file or directory is created.
+* Default Permission for root and standard user:
+  
+| User           | Directory Permissions | File Permissions |
+|----------------|-----------------------|------------------|
+| Root           | 755                   | 644              |
+| Standard User  | 775                   | 664              |
+
+- Calculating Permission with Umask:
+
+| User           | Calculation          | Umask | Umask Permission |
+|----------------|----------------------|-------|------------------|
+| Root Dir       | 777 - 022 = 755     | 022   | 755              |
+| File           | 666 - 022 = 644     | 022   | 644              |
+| Standard Dir   | 777 - 002 = 775     | 002   | 775              |
+| File           | 666 - 002 = 664     | 002   | 664              |
+

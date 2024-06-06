@@ -4,8 +4,8 @@
 - “ls -l” or “ll” command can be used to check security of any file or directory.
 - Above command will display contents from directory along with its security 
 details.
-### drwxr-xr-x 3 ubuntu ubuntu     4096 May  9 18:41 Linux
-### -rw-rw-r-- 1 ubuntu ubuntu 60582753 May 10 12:02 file1.txt
+### drwxr-xr-x 3 root root     4096 May  9 18:41 Linux
+### -rw-rw-r-- 1 root root 60582753 May 10 12:02 file1.txt
 * The first character = ‘-‘, which means it’s a file ‘d’, which means it’s a directory.
 * The next nine characters = (rw-r–r–) show the security
 * The next column shows the owner of the file. (Here it is `root`)

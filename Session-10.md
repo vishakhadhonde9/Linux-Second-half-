@@ -31,7 +31,7 @@ details.
 - Hard link- Renaming, deleting or removing file will not effect link. soft or symbolic link creates a pointer to the original file.
 #### Syntax to create hardlink,
 * ln <original_file> <hardlink_name>
-## Named Pipe file- (start with |)  
+## Named Pipe file- (start with p)  
 - used to establish two-way communications between two unrelated programs.
 - Sends data from one process to another so that receiving process reads the data FIFO manner.
 ## Socket file- (start with s)

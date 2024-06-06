@@ -54,12 +54,13 @@ details.
 - Enables the execution of a file or allows access to a directory's contents if used with directory permissions.
 
 # These permissions are set for three categories of users:
-### Owner: 
+### Owner: (u)
 - The user who owns the file or directory.
-### Group: 
+### Group: (g)
 - Users who are members of the group associated with the file or directory.
-### Others: 
+### Others: (o)
 - All other users who are not the owner or part of the group.
+### All: (a)
 
 # Permissions are represented by a series of symbols:
 * r: indicates read permission.

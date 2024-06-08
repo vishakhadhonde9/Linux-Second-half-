@@ -5,16 +5,16 @@
 - You can specify both the user (owner) and the group to which the file or directory will belong.
 
 #### Syntax:
-chown [OPTIONS] user:group file/dir
+chown user :group file/dir
 - chown newowner file.txt
-- chown newowner:newgroup directory
+- chown newowner:newgroup directory/filename
 
 ## chgrp (Change Group):
 - The chgrp command changes the group ownership of a file or directory.
 - You can specify only the group to which the file or directory will belong.
 
 #### Syntax:
-chgrp [OPTIONS] group file/dir
+chgrp group file/dir
 - chgrp newgroup file.txt
 
 

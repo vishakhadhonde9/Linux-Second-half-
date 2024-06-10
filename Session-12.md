@@ -44,9 +44,11 @@
 - Every process in the system is assigned a unique numeric identifier called a Process ID (PID).
 - PIDs are used by the operating system to manage and identify processes.
 - echo $$
+- pidof [process name]
 ### PPID-
 - The Parent Process ID (PPID) indicates the PID of the parent process that created the current process.
 - echo $PPID
+  
 
 # Process Management Lifecycle-
 #### Following are the States of Process Management Lifecycle-

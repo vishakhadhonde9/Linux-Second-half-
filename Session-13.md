@@ -25,6 +25,8 @@
 #### Syntax:
 * nice [options] [command]
 * nice -n 10 command
+* To check nice value:
+  ##### ps -l PID
 
 ## renice command-
 -  used to change the niceness value of an existing process.

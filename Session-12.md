@@ -25,7 +25,6 @@
 - Starts the command immediately in the background.
 #### Ctrl+Z-
 - Stops the job temporarily so that it can be managed.
-- For instance, it can be moved to the background.
 #### Ctrl+D- 
 - Send the End Of File (EOF) character to the current job to indicate that it should stop waiting for further input.
 #### Ctrl+C- 

@@ -38,7 +38,7 @@
 - used to terminate process manually.
 - kill command sends a signal to a process that terminates the process.
 #### Syntax-
-* kill PID
+ kill -[signal number] PID
 - Three of these signals work for all processes :
 - The signal SIGTERM (15) is used to ask a process to stop.
 - The signal SIGKILL (9) is used to force a process to stop.

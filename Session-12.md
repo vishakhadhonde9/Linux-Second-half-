@@ -15,7 +15,7 @@
 ## Foreground Processes: 
 - they run on the screen and need input from the user.
 - also referred to as interactive processes
-- for example: Office Programs
+
 ## Background Processes: 
 - they run in the background and usually do not need user input.
 - referred to as non-interactive or automatic processes

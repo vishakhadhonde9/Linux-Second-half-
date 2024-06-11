@@ -19,6 +19,7 @@
 - By default, all regular processes are equal and are started with the same priority, which is the priority number 0.
 - In some cases, it is useful to change the default priority that was assigned to the process when it was started.
 - You can do that using the nice and renice commands.
+- - the niceness value ranges from -20(highest prioprity) to 19(lowewst priority).
 ## nice command-
 - used to launch a new process with a specified niceness value.
 - the niceness value ranges from -20(highest prioprity) to 19(lowewst priority).

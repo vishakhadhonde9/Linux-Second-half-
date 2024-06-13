@@ -12,6 +12,7 @@
 - -v -> verbose or view.
 - -t -> list the content from archive.
 - -x -> execute the content from archive.
+- -C -> copy content from an archive to another directory.
 
 # Compression-
 - Compression is a reduction in the number of bits needed to represent data.
@@ -27,7 +28,7 @@
 - “-j” option in tar or bzip2 command can be used for bzip2 compression.
 - Bunzip2 is command to extract bzip2 compressed file.
 ## XZ:
-- XZ use LZMA algorithm which provide impressive compression ration but in cost of very high CPU and Memory usage.
+- XZ provide impressive compression ration but in cost of very high CPU and Memory usage.
 - Decompression speed is better but it also consumes a lot of memory.
 - XZ compression can be done by “-J” option in tar or xz command.
 

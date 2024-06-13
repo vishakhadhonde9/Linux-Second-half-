@@ -7,13 +7,11 @@
  - tar is commonly used to bundle files and directories together into a single archive file, which can then be compressed if desired.
 ### tar <-options> <compress_fileName>.tar <files_to_be_compressed>
 #### options-
--c -> create an archive.
--f -> file name. (Compulsory option)
--v -> verbose or view.
--t -> list the content from archive.
--x -> execute the content from archive.
--P -> preserve permission when extracting file or directory.
--C -> copy content from an archive to another directory.
+- -c -> create an archive.
+- -f -> file name. (Compulsory option)
+- -v -> verbose or view.
+- -t -> list the content from archive.
+- -x -> execute the content from archive.
 
 # Compression-
 - Compression is a reduction in the number of bits needed to represent data.

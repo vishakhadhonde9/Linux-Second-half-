@@ -17,6 +17,9 @@
 -  A daemon called crond runs in the background and check its configuration every minute to examine configuration files in order to execute commands or shell scripts specified in the crontab if the
   time matches with specified time.
 - Crontab can executes job repeatedly in specified time interval.
+
+  ![image](https://github.com/vishakhadhonde9/Linux-Second-half-/assets/97825776/3df2b18c-f69d-4227-9b32-b24ac444b5bb)
+
 #### Syntax-
 - crontab <option>
 ##### Options-

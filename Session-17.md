@@ -22,8 +22,8 @@
 | Red Hat      | rpm            | yum             |
 | Debian       | dpkg           | apt-get         |
 
-* Red Hat Based OS- Ubantu, Linux, Kali-Linux
-* Debian Based OS- Fedora, CentOS, Rhel
+* Red Hat Based OS- Fedora, Linux, Amazon linux CentOS, Rhel, etc
+* Debian Based OS- kali linux, Ubantu, etc
 # rpm- 
 - RPM packages are typically files with a .rpm extension.
 - They are archives that contain the files to be installed, along with metadata such as package name, version, dependencies, and installation scripts.

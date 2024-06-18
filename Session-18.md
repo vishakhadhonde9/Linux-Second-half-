@@ -17,7 +17,8 @@
 - IPv4 addresses are typically written as four decimal numbers separated by dots (e.g., 192.168.1.1), while IPv6 addresses are written in hexadecimal format with colons separating each group (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 
 # Port Number-
-- 
+- A port number is the logical address of each application or process that uses a network or the Internet to communicate.
+-  A port number uniquely identifies a network-based application on a computer.
 
 
 

@@ -35,10 +35,14 @@
 - -q query package
 - -e erase package
 # yum-
-* To use YUM, you typically use commands like:
-- Install a Package: yum install package_name
-- Update a Package: yum update package_name
-- Remove a Package: yum remove package_name
-- List Installed Packages: yum list installed
+### To use YUM, you typically use commands like:
+* Install a Package:
+- yum install package_name
+* Update a Package:
+- yum update package_name
+* Remove a Package:
+- yum remove package_name
+* List Installed Packages:
+  - yum list installed
 
 

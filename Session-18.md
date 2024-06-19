@@ -24,18 +24,30 @@
     - HTTP: 80
     - HTTPS: 443
     - MySQL: 3304
+
+
+
 # ifconfig: 
-- Used to configure network interfaces, display their configuration, and enable/disable them.
+- Used to configure network interfaces, display their configuration.
+- It display ip address and mac address of system.
 
 # ip:
-- Provides more advanced network configuration options than ifconfig, including routing, addressing, and tunnels.
+- Provides more advanced network configuration options than ifconfig, including routing, addressing.
+- ip addr
+  - This command displays information about all network interfaces on your system, including their IP addresses, MAC addresses, and other configuration details.
+- ip link
+  - Displays information about network interfaces (links), such as their state (UP or DOWN), MTU (Maximum Transmission Unit), and Ethernet address (MAC address).
 
 # ping: 
-- Sends ICMP Echo Request packets to test the reachability of a host on an IP network and measure round-trip time.
+- Test connectivity.
+- Verify that a specific host is reachable over the network.
+- Diagnose network connectivity issues, such as packet loss or high latency.
+- ping <host>
 
-traceroute / tracepath: 
+# traceroute / tracepath: 
 - Traces the route taken by packets from the source to the destination, showing intermediate hops and round-trip times.
-
+- traceroute [destination]
+  
 # netstat-
 - Displays various network-related information, such as active network connections, routing tables, interface statistics, and more.
 
@@ -45,7 +57,7 @@ traceroute / tracepath:
 # telnet-
 Telnet is a network protocol used on the Internet or local area networks to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection.
 
-In Linux, the Telnet client can be used to establish a connection to a remote system that supports the Telnet protocol
+In Linux, the Telnet client can be used to establish a connection to a remote system that supports the Telnet protocol.
 
 
 

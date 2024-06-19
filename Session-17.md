@@ -1,5 +1,5 @@
 
-+# Package Management-
+# Package Management-
 - Package Management is the method of installing and maintaining the package/software.
 - Package management in Linux refers to the process of installing, updating, configuring, and removing software packages
 - In Linux, software is available in the form of packages (packages are the collection of programs).

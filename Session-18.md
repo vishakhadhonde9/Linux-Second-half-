@@ -19,10 +19,11 @@
 # Port Number-
 - A port number is the logical address of each application or process that uses a network or the Internet to communicate.
 -  A port number uniquely identifies a network-based application on a computer.
-
-
-
-
+* Examples-
+    - SSH: 22
+    - HTTP: 80
+    - HTTPS: 443
+    - MySQL: 3304
 # ifconfig: 
 - Used to configure network interfaces, display their configuration, and enable/disable them.
 

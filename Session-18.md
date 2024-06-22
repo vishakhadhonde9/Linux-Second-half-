@@ -50,7 +50,9 @@
   
 # netstat-
 - Displays various network-related information, such as active network connections, routing tables, interface statistics, and more.
-
+### Options:
+- -u: instructs netstat to display UDP (User Datagram Protocol) connections. UDP is a connectionless protocol used for sending data in a network.
+- -t: netstat to display TCP (Transmission Control Protocol) connections. TCP is a connection-oriented protocol used for reliable communication over a network.
 # wget / curl:
 - Command-line tools for downloading files from the internet using HTTP, HTTPS, FTP, and other protocols.
 

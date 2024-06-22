@@ -59,7 +59,7 @@
 # telnet-
 Telnet is a network protocol used on the Internet or local area networks to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection.
 
-In Linux, the Telnet client can be used to establish a connection to a remote system that supports the Telnet protocol.
+
 
 
 

@@ -23,7 +23,7 @@
     - SSH: 22
     - HTTP: 80
     - HTTPS: 443
-    - MySQL: 3304
+    - MySQL: 3306
 
 
 

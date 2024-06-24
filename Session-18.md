@@ -10,7 +10,6 @@
 - On the other hand, UDP is connectionless and does not guarantee delivery but is faster and more lightweight.
 - The protocol determines how data is formatted, transmitted, and received between devices.
 
-
 # IP address-
 - An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network.
 - IP addresses are used to identify and locate devices within a network.
@@ -25,7 +24,7 @@
     - HTTPS: 443
     - MySQL: 3306
 
-
+# Networking Utilities-
 
 # ifconfig: 
 - Used to configure network interfaces, display their configuration.

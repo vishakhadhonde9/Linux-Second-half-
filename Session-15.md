@@ -43,7 +43,7 @@ output. Following are some filter tools that can we use:
 #### find <search_path> <options> <required-parameters>
 ##### Options,
 - -name <file_name>- Search for a file with the specified name
-- -perm <mode>- File's permission bits are exactly mode (octal or symbolic)
+- -perm <mode>- File's permission bits are exactly mode (octal)
 - -user <name>- File is owned by user specified
 - -group <grp_name> - File is owned by group specified.
 - -empty- The file is empty

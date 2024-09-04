@@ -46,6 +46,7 @@
 - The higher-order bits of the first octet of class E are always set to 1111.
 
 ![image](https://github.com/user-attachments/assets/92eb0433-f635-4951-bba0-f39f46193b24)
+![image](https://github.com/user-attachments/assets/09ceffbc-32eb-4dc7-a70d-30dd3d4e9afb)
 
 
 # Range of Private ip addresses-

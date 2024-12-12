@@ -94,6 +94,10 @@
 
 The application layer is used by end-user software such as web browsers and email clients. It provides protocols that allow software to send and receive information and present meaningful data to users. A few examples of application layer protocols are the Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
 
+
+![image](https://github.com/user-attachments/assets/01bd19dc-51a4-42a5-8626-d7ed323755ec)
+
+
 # TCP-IP Model-
 - The TCP/IP model defines how devices should transmit data between them and enables communication over networks and large distances.
 - The TCP/IP model consists of five layers: the application layer, transport layer, network layer, data link layer and physical layer.
